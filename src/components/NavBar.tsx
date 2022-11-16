@@ -23,7 +23,7 @@ export default function NavBar() {
     <div className=" shadow-md w-full fixed top-0 left-0 ">
         <div className="  md:flex items-center justify-between  bg-blue-300  py-4 md:px-10 px-7 ">
             <div className=" flex font-bold text-2xl cursor-pointer items-center text-white-300 ">
-                <span className="text-3xl mr-1 pt-2 mb-1">
+                <span className="text-3xl mr-1 pt-2 mb-1 max-w-[640px]">
                     <a href="#" className=""><Logo/></a>
                 </span>
     

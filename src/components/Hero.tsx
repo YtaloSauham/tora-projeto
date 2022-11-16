@@ -1,5 +1,6 @@
 import { ImageProps } from "next/image";
 
+
 interface HeroProps{
     title?:string;
     content?:string;
@@ -16,6 +17,7 @@ export default function Hero(){
           <div className="flex flex-1 flex-col items-center lg:items-start">
             <h2 className=" text-3xl font-bold md:text-4 lg:text-4xl text-center lg:text-left mb-6">
             O QUE É TORA?
+
             </h2>
             <p className="text-bookmark-grey text-lg text-center lg:text-left mb-6">
             TORA se trata de uma ferramenta de 
@@ -26,7 +28,7 @@ export default function Hero(){
           </div>
        
           <div className="flex justify-center flex-2">
-            <img className=" w-[50rem] h-[40rem] object-cover" src="https://source.unsplash.com/random" alt="" />
+            <img className=" w-[50rem] h-[30rem] object-contain" src={"../../img/tora-nome.png"} alt="" />
           </div>
         </div>
       </div>
