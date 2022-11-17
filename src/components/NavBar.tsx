@@ -13,7 +13,7 @@ export default function NavBar() {
     let links:Array<links> =[
         {name:"Pagina Inicial", link:"/"},
         {name:"Tutoriais", link:"/Tutoriais"},
-        {name:"Sobre Nós", link:"/sobre"},
+        {name:"Sobre Nós", link:"/Sobre"},
         {name:"Codigo Fonte", link:"https://github.com/YtaloSauham/tora-projeto"}
     ]
 
@@ -45,8 +45,8 @@ export default function NavBar() {
                         return(
                         <li key={index} className="text-white-400 md:ml-8 md:my-0 my-7 hover:text-blue-500">
                             
-                           <Link legacyBehavior href={link.link}>
-                            <a title={link.name}>{link.name}</a></Link>
+                           
+                            <a href={link.link} title={link.name}>{link.name}</a>
                         </li> 
                         )
                        
