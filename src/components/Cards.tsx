@@ -7,24 +7,37 @@ export default function Cards(){
                 Tutoriais
             </div>
             
-        <div className="md:flex flex-row mb-9 gap-6 sm:flex-col-1 gap-7">
-            
-<a href="/Conceitos" className="flex flex-col items-center bg-white border rounded-lg py-4 shadow-md md:flex-row md:max-w-xl hover:bg-gray-300 bg-green-100">
-    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="../../img/student.png" alt="" />
-    <div className="flex flex-col justify-between p-4 leading-normal">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">Conceitos de IPO</h5>
-        <p className="mb-3 font-normal text-black">Entenda o que é IPO e sua importância.</p>
+        <div className="md:flex flex-row mb-9 gap-6 sm:grid sm:grid-cols-1 sm:gap-8 sm- ">
+
+        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="p-5">
+        <a href="#">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-white-300 ">Conceitos de IPO</h5>
+        </a>
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Sabe o que é IPO? Entenda sua origem e seu conceito.</p>
+        <a href="/Conceitos" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Saiba Mais
+            <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a>
     </div>
-</a>
+</div>
+
 <br/>
-<a href="#" className="flex flex-col items-center bg-white border rounded-lg py-4 shadow-md md:flex-row md:max-w-xl hover:bg-gray-300 bg-green-100" >
-    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="../../img/engrenagem.png" alt="" />
-    <div className="flex flex-col justify-between p-4 leading-normal">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">Como iniciar o TORA</h5>
-        <p className="mb-3 font-normal text-black">Inicializando o TORA com rapidez para começar a resolver problemas.</p>
-     
+
+<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="p-5">
+        <a href="#">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-white-300">Como iniciar o TORA</h5>
+        </a>
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Inicializando o TORA com rapidez para começar a resolver problemas.</p>
+        <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Saiba Mais
+            <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a>
     </div>
-</a>
+</div>
+
+
 
 </div>
 
