@@ -46,7 +46,7 @@ export default function NavBar() {
                         <li key={index} className="text-white-400 md:ml-8 md:my-0 my-7 hover:text-blue-500">
                             
                            
-                            <a href={link.link} title={link.name}>{link.name}</a>
+                            <a href={link.link}>{link.name}</a>
                         </li> 
                         )
                        

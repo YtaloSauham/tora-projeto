@@ -26,7 +26,7 @@ export default function Footer(){
                     <h2 className="mb-5 text-sm font-semibold text-white-300 uppercase dark:text-white">Criadores</h2>
                     <ul className="text-gray-600 dark:text-gray-400">
                         <li className="mb-4">
-                            <a href="/Sobre" className="hover:underline ">Sobre Nós</a>
+                            <a href="/Sobre" className="hover:underline">Sobre Nós</a>
                         </li>
                     </ul>
                 </div>

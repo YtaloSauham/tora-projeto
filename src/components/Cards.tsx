@@ -1,3 +1,5 @@
+import { Link } from "phosphor-react";
+
 export default function Cards(){
     return(
 
@@ -11,7 +13,7 @@ export default function Cards(){
 
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
     <div className="p-5">
-        <a href="#">
+        <a href="/Conceitos">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-white-300 ">Conceitos de IPO</h5>
         </a>
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Sabe o que é IPO? Entenda sua origem e seu conceito.</p>
