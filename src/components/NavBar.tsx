@@ -2,6 +2,7 @@ import { Logo } from "./Logo";
 import {List, X} from "phosphor-react"
 
 import { useState } from 'react';
+import Link from "next/link";
 
 interface links{
     name: string;
@@ -11,9 +12,9 @@ interface links{
 export default function NavBar() {
     let links:Array<links> =[
         {name:"Pagina Inicial", link:"/"},
-        {name:"Tutoriais", link:"/"},
-        {name:"Sobre Nós", link:"/"},
-        {name:"Codigo Fonte", link:"/"}
+        {name:"Tutoriais", link:"/Tutoriais"},
+        {name:"Sobre Nós", link:"/sobre"},
+        {name:"Codigo Fonte", link:"https://github.com/YtaloSauham/tora-projeto"}
     ]
 
     let [open, setOpen] = useState(false);
@@ -24,7 +25,7 @@ export default function NavBar() {
         <div className="  md:flex items-center justify-between  bg-blue-300  py-4 md:px-10 px-7 ">
             <div className=" flex font-bold text-2xl cursor-pointer items-center text-white-300 ">
                 <span className="text-3xl mr-1 pt-2 mb-1 max-w-[640px]">
-                    <a href="#" className=""><Logo/></a>
+                    <Link href='/' className=""><Logo/></Link>
                 </span>
     
             </div>
@@ -43,8 +44,10 @@ export default function NavBar() {
                     links.map((link,index)=>{
                         return(
                         <li key={index} className="text-white-400 md:ml-8 md:my-0 my-7 hover:text-blue-500">
-                            <a href={link.link}>{link.name}</a>
-                        </li>
+                            
+                           <Link legacyBehavior href={link.link}>
+                            <a title={link.name}>{link.name}</a></Link>
+                        </li> 
                         )
                        
                     })

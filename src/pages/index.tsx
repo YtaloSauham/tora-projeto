@@ -10,13 +10,12 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <>
-     <Head>
-        <title>My page title</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
      <Jumbotron/>
      <Layout>
-     <Hero/>
+     <Hero title='O que é TORA?' content='TORA se trata de uma ferramenta de resolução de
+      cálculos matemáticos complexos, que necessitam de uma resolução extremamente elaborada e/ou 
+      extremamente precisa, como equação linear, modelos de redes, programação linear, entre outros tipos.
+'     image="../../img/tora-nome.png"/>
     </Layout>
     </>
   )
