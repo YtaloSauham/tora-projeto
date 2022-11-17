@@ -16,6 +16,7 @@ export default function Layout(props:LayoutProps){
         <link rel="apple-touch-icon" sizes="180x180" href="../../public/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href=".../.../public/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="../../public/favicon-16x16.png"/>
+        <link rel='stylesheet' href='nprogress.css'/>
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
 

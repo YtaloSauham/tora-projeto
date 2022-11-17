@@ -15,10 +15,10 @@ export default function Footer(){
                     <h2 className="mb-6 text-sm font-semibold text-white-300 uppercase ">Tutoriais</h2>
                     <ul className="text-gray-600 dark:text-gray-400">
                         <li className="mb-4">
-                            <a href="https://flowbite.com/" className="hover:underline">Como iniciar o TORA</a>
+                            <a href="/Iniciar" className="hover:underline">Como iniciar o TORA</a>
                         </li>
                         <li className="mb-4">
-                            <a href="https://tailwindcss.com/" className="hover:underline">Conceitos de PO</a>
+                            <a href="/Conceitos" className="hover:underline">Conceitos de PO</a>
                         </li>
                     </ul>
                 </div>
@@ -31,15 +31,6 @@ export default function Footer(){
                     </ul>
                 </div>
                 <div>
-                    <h2 className="mb-4 text-sm font-semibold text-white-300 uppercase dark:text-white">Projeto</h2>
-                    <ul className="text-gray-600 dark:text-gray-400">
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Privacy Policy</a>
-                        </li>
-                        <li>
-                            <a href="#" className="hover:underline">Terms &amp; Conditions</a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         <div className="col-start-1 col-end-4">
