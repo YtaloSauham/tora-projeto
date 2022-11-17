@@ -15,6 +15,7 @@ export default function CardsGit(){
         {name:"Francisco Remo", description:"Criador do Site",image:"https://avatars.githubusercontent.com/u/75093311?v=4",linkGit:"https://github.com/Franciscoflh"},
         {name:"Lucas Felipe", description:"Documentação.",image:"https://avatars.githubusercontent.com/u/75092912?v=4",linkGit:"https://github.com/LucasFelip"},
         {name:"David Alysson",description:"Documentação.",image:"https://avatars.githubusercontent.com/u/83242836?v=4",linkGit:"https://github.com/DavidAly"},
+        {name:"Rafael Mendes",description:"Documentação.",image:"https://avatars.githubusercontent.com/u/52051631?v=4",linkGit:"https://github.com/rafaelmendesJW"},
        
     ]
     
