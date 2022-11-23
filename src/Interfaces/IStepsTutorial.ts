@@ -4,3 +4,4 @@ export default interface IStepsTutorial{
     image?:string;
 
 }
+

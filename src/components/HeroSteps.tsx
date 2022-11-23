@@ -2,6 +2,8 @@ import { ArrowArcLeft, ArrowLeft, Link } from "phosphor-react";
 import IStepsTutorial from "../Interfaces/IStepsTutorial";
 
 interface StepsTutorialProps {
+  title: string;
+  subtitle?: string;
   stepsTutorial: IStepsTutorial[];
 }
 
@@ -16,12 +18,12 @@ export default function HeroSteps(props: StepsTutorialProps) {
           >
             <i className="flex justify-between ">
               <ArrowLeft size={23} />
-              Tutoriais
+              {props.title}
             </i>
           </a>
 
           <h2 className="text-3xl font-bold md:text-4 lg:text-4xl text-center lg:text-left mb-6">
-            Como iniciar o TORA.
+            {props.subtitle}
           </h2>
         </div>
         {props.stepsTutorial.map((steps, index) => {

@@ -2,7 +2,7 @@ import HeroSteps from "../components/HeroSteps";
 import Layout from "../components/Layout";
 import IStepsTutorial from "../Interfaces/IStepsTutorial";
 
-export default function Iniciar() {
+export default function IniciarTora() {
   let steps: Array<IStepsTutorial> = [
     { step: "1", contain: "Baixe o TORA.", image: "../../img/step-1.png" },
     {
@@ -81,7 +81,11 @@ export default function Iniciar() {
   return (
     <>
       <Layout>
-        <HeroSteps stepsTutorial={steps} />
+        <HeroSteps
+          title="Tutoriais"
+          subtitle="Como iniciar o TORA"
+          stepsTutorial={steps}
+        />
       </Layout>
     </>
   );
