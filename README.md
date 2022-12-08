@@ -2,6 +2,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ![image](https://user-images.githubusercontent.com/85992772/202715316-3758985c-0ada-46c9-8117-b6d41a8e7c26.png)
 
+## 📜 Descrição do Projeto
+O projeto visa criar um repositorio online na qual novos participantes possam compartilhar tutoriais elucidando problemas de Pesquisa Operacional com o uso do TORA System.
+
+## 🔗 Sobre o TORA System
+O TORA System, se trata de uma ferramenta de resolução de cálculos matemáticos complexos, que necessitam de uma resolução extremamente elaborada e/ou extremamente precisa, como equação linear, modelos de red/es, programação linear, entre outros tipos.
+
+## 👨‍🎓 Equipe
+Ytalo Sauham - <a href="https://github.com/YtaloSauham">GitHub<a/> <br/>
+Francisco Remo - <a href="https://github.com/Franciscoflh">GitHub<a/> <br/>
+Lucas Felipe -  <a href="https://github.com/LucasFelip">GitHub<a/>
+David Alysson - <a href="https://github.com/DavidAly">GitHub<a/>
+Rafael Mendes - <a href="https://github.com/rafaelmendesJW">GitHub<a/>
+
 ## Getting Started
 
 First, run the development server:
