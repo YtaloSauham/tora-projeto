@@ -3,18 +3,9 @@
 import Hero from '../components/Hero'
 import Jumbotron from '../components/Jumbotron'
 import Layout from '../components/Layout'
-import Aos from 'aos'
-import { useState, useEffect } from 'react'
-import 'aos/dist/aos.css'
-
 
 
 export default function Home() {
-
-  useEffect(() =>{
-    Aos.init({duration:1500});
-  },[])
-
 
   return (
     <>

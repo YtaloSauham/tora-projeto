@@ -7,7 +7,7 @@ interface CardGitProps {
 
 export default function CardsGit(props: CardGitProps) {
   return (
-    <div className="container flex grid h-full mx-auto mt-20 text-black">
+    <div className="container flex grid h-full mx-auto mt-20 text-black" data-aos="fade-up">
       <div className="grid">
         <div className="text-3xl font-bold ">
           Equipe
