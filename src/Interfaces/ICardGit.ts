@@ -1,4 +1,4 @@
-export default interface CarGit{
+export default interface ICarGit{
         name: string;
         description: string;
         image: string;
