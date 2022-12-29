@@ -7,7 +7,7 @@ interface CardTutorialProps {
 
 export default function CardsTutorial(props: CardTutorialProps) {
   return (
-    <div className="mt-20 flex flex-col mb-2 justify-center items-center">
+    <div className="mt-20 flex flex-col mb-2 justify-center items-center" >
       <div className="text-4xl font-bold mb-9">Tutoriais</div>
       <div className="md:flex flex-row mb-9 gap-8 ">
         {props.cardTutorial.map((cardTutorial, index) => {
