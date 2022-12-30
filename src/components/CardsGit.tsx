@@ -3,11 +3,12 @@ import CardGit from "../Interfaces/ICardGit";
 
 interface CardGitProps {
   cardGit: CardGit[];
+  animation?: string;
 }
 
 export default function CardsGit(props: CardGitProps) {
   return (
-    <div className="container flex grid h-full mx-auto mt-20 text-black" data-aos="fade-up">
+    <div className="container flex grid h-full mx-auto mt-20 text-black" data-aos={props.animation}>
       <div className="grid">
         <div className="text-3xl font-bold ">
           Equipe
@@ -15,7 +16,7 @@ export default function CardsGit(props: CardGitProps) {
             {props.cardGit.map((cardGit, index) => {
               return (
                 <>
-                  <div className="flex items-center gap-4 mt-6">
+                  <div className="flex items-center gap-4 mt-6" key={index}>
                     <img
                       className="h-20 w-20 rounded-full border border-blue-500"
                       src={cardGit.image}
