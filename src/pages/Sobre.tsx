@@ -38,7 +38,7 @@ export default function Sobre() {
   return (
     <>
       <Layout>
-        <CardsGit cardGit={cardGit} />
+        <CardsGit cardGit={cardGit} animation='fade-up'/>
       </Layout>
     </>
   );

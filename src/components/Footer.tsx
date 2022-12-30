@@ -15,7 +15,7 @@ export default function Footer(){
                     <h2 className="mb-6 text-sm font-semibold text-white-300 uppercase ">Tutoriais</h2>
                     <ul className="text-gray-600 dark:text-gray-400">
                         <li className="mb-4">
-                            <a href="/Iniciar" className="hover:underline">Como iniciar o TORA</a>
+                            <a href="/IniciarTora" className="hover:underline">Como iniciar o TORA</a>
                         </li>
                         <li className="mb-4">
                             <a href="/Conceitos" className="hover:underline">Conceitos de PO</a>

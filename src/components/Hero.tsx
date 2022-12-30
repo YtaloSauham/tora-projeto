@@ -1,6 +1,4 @@
 
-
-
 interface HeroProps{
     title?:string;
     content?:string;
