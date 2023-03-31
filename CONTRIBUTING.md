@@ -9,21 +9,21 @@
 <br>
 
 ## Trabalhando com o código
-<hr>
+
 <p>
 Agora que você tem um problema que deseja corrigir, aprimoramento para adicionar ou documentação para melhorar, você precisa aprender a trabalhar com o GitHub e a base de código do TORA.
 </p>
 <br>
 
 ## Introdução ao Git
-<hr>
+
 <p>
 O GitHub tem instruções para instalar o git, configurar sua chave SSH e configurar o git. Todas essas etapas precisam ser concluídas antes que você possa trabalhar perfeitamente entre seu repositório local e o GitHub.
 </p>
 <br>
 
 ## Bifurcação
-<hr>
+
 <p>
 Você precisará de seu próprio fork para trabalhar no código. Vá para a página do projeto TORA e aperte o botão fork. Você vai clonar seu fork para sua máquina:
 
@@ -40,7 +40,7 @@ git fetch upstream
 <br>
 
 ## Criando uma ramificação
-<hr>
+
 <p>
 Você deseja que sua ramificação principal reflita apenas o código pronto para produção, portanto, crie uma ramificação de recursos para fazer suas alterações. Por exemplo:
 
@@ -69,7 +69,7 @@ git pull upstream main --ff-only
 <br>
 
 ## Confirmando seu código
-<hr>
+
 <p>
 Depois de fazer as alterações, você pode vê-las digitando:
 
@@ -93,7 +93,7 @@ git commit -m "sua mensagem de commit aqui"
 <br>
 
 ## Enviando suas alterações
-<hr>
+
 <p>
 Quando você quiser que suas alterações apareçam publicamente em sua página do GitHub, envie os commits do branch de recursos bifurcados:
 
@@ -108,7 +108,7 @@ Agora seu código está no GitHub, mas ainda não faz parte do TORA. Para que is
 <br>
 
 ## Faça um pull request
-<hr>
+
 <p>
 Se tudo estiver correto, você está pronto para fazer uma solicitação pull. Uma solicitação pull é como o código de um repositório local fica disponível para a comunidade GitHub e pode ser visualizado e, eventualmente, mesclado na versão principal. Essa solicitação pull e suas alterações associadas serão eventualmente confirmadas na ramificação principal e disponibilizadas na próxima versão. Para enviar uma solicitação pull:
 
