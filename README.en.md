@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![image](https://user-images.githubusercontent.com/85992772/202715316-3758985c-0ada-46c9-8117-b6d41a8e7c26.png)
+![translated](https://user-images.githubusercontent.com/103374054/233511613-6ef465f1-689b-42d3-9b5c-197ca5c9287e.jpg)
 
 ## 📜 Project description
 The project aims to create an online repository in which new participants can share tutorials elucidating Operations Research problems using the TORA System.
